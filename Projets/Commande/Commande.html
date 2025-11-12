@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>commande</title>
+<meta name='viewport' content='width=device-width, initialscale=1'>
+<link rel='stylesheet' type='text/css' media='screen'
+href='mesStyles.css'>
+<script src='main.js'></script>
+</head>
+<body>
+<form action="" target="cadre">
+<h3>Commander en tant qu'invité</h3>
+<fieldset>
+<legend>Informations personnelles</legend>
+<label for="">Civilité</label>
+<input type="radio" name="civ" id="">M.
+<input type="radio" name="civ" id="">Mme.<br>
+<label for="">Nom et Prénom*</label>
+<input type="text" name="" id="" required
+class="zone"><br>
+<label for="">E-mail*</label>
+<input type="email" name="" id="" required
+class="zone"><br>
+<label for="">Mot de passe</label>
+<input type="password" name="" id="" class="zone"><br>
+<p id="para">Créer votre compte (optionnel)</p>
+<label for="">Date de naissance</label>
+<input type="date" name="" id=""class="zone1" ><br>
+<label for="">Optionnel</label>
+<input type="checkbox" name="" id=""> Recevoir notre newslettre
+</fieldset>
+<fieldset>
+<legend>Informations commande</legend>
+<label for="">Quantité*</label>
+<input type="number" class="zone1" name="" id=""
+min="1" max="10" value="1" required><br>
+<label for="">Téléphone*</label>
+<input type="tel" name="" id="" required
+class="zone"><br>
+<label for="">Adresse*</label>
+<input type="text" required name="" id=""
+class="zone"><br>
+<label for="">Ville*</label>
+<input list="ville" name="" id="" required
+class="zone">
+<datalist id="ville">
+<option value="Tunis"></option>
+<option value="Sousse"></option>
+<option value="Sfax"></option>
+<option value="Sidi bouzid"></option>
+<option value="Beja"></option>
+<option value="Bizerte"></option>
+<option value="Jendouba"></option>
+<option value="Tozeur"></option>
+<option value="Tataouine"></option>
+</datalist><br>
+<label for="">Code postal*</label>
+<input type="text" name="" id="" required
+class="zone"><br>
+<label for="">Mode de paiement*</label>
+<input type="radio" name="paie" id="" required>Payer
+comptant à la livraison
+<input type="radio" name="paie" id="" required>Paiement
+par carte bancaire<br>
+<input type="checkbox" name="" id="" required
+class="cond"> * J'accepte les conditions générales et la politique
+de confidentialité
+</fieldset>
+<div class="but">
+<input type="submit" class="b1" name="" id=""
+value="Poursuivre">
+<input type="reset" class="b1" name="" id="" value="Annuler">
+</div>
+</form>
+</body>
+</html>

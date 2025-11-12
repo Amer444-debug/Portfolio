@@ -1,0 +1,28 @@
+<h3>LENOVO IdeaPad1 15IGL7</h3>
+<p>699,000 DT 775,000 DT</p>
+<li>Processeur: Intel Celeron N4020</li>
+<li>Mémoire RAM: 4 Go DDR4-2400</li>
+<li>Disque Dur: 256 Go SSD</li>
+<li>Couleur: Gris</li>
+<li>Garantie: 1 an</li>
+
+
+
+
+<h3>DELL Vostro 3520</h3>
+<p>965,000 DT 1 045,000 DT</p>
+<li>Processeur: Intel Core i3-1215U</li>
+<li>Mémoire RAM: 20 Go DDR4-3200</li>
+<li>Disque dur: 256Go SSD</li>
+<li>Couleur: Noir</li>
+<li>Garantie: 1 an</li>
+
+
+
+<h3>HP 15-fd0097nk</h3>
+<p>1 635,000 DT 1 765,000 DT</p>
+<li>Processeur: Intel Core i5-1334U</li>
+<li>Mémoire RAM: 12 Go DDR4-3200</li>
+<li>Disque Dur: 512Go SSD</li>
+<li>Couleur: Noir</li>
+<li>Garantie: 1 an</li>

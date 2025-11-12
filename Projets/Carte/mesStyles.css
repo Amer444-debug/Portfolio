@@ -1,0 +1,224 @@
+/* Code CSS de la page Ajout */
+body{
+    background-color: #ffffff;
+}
+.principal
+{
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 25px;
+    background-color: #022c4e;
+}
+.second
+{
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #ddeeee;
+    border-radius: 5px;
+    border: solid 1px white;
+}
+.t2
+{
+    text-align: center;
+    color: #022c4e;
+    font-family:'Lucida Sans';
+}
+.zone
+{
+    display: block;
+    margin: auto auto 5px auto;
+    width: 250px ;
+    border-radius: 5px;
+    border-style: none;
+    height: 25px;
+    font-weight: bold;
+}
+.bch
+{
+    font-weight: bold;
+    font-family:'Lucida Sans';
+    font-size: 12px;
+    text-align: center;
+}
+.boutons
+{
+    text-align: center;
+    margin-top: 20px;
+}
+#bt2,#bt3   
+{
+    width: 100px;
+    height: 25px;
+    background-color:#022c4e;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+}
+
+/* Codes CSS de la page index */
+
+ .B1{
+    width: 1000px;
+    margin: auto;
+ }
+ header{
+    height: 100px;
+    width: 100%;
+    background-color: #F5F5DC;
+ }
+.T1{
+    text-align: center;
+    font-size: 40px;
+    margin: 0px auto;
+    position: relative;
+    top: 30px;
+    transition: all 2s 1s;
+}
+main{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-top: 5px;
+}
+nav{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 200px;
+    height: 100%;
+    background-color: #FFEBCD;
+
+}
+section{
+    position: absolute;
+    top: 0;
+    left: 205px;
+    width: 795px;
+    height: 100%;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    background-color: #F5F5DC;
+}
+footer p {
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px;
+    font-weight: bold;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+ul a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 50px 0;
+    padding: 10px;
+}
+.T1:hover{
+    color: blue;
+    transform: scale(1,3);
+    opacity: 0;
+}
+/* Code CSS de la page accueil */
+
+.im1{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    transform-origin:100% 100%;
+}
+
+#box{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+}
+#I9{
+    transform: rotateZ(80deg);
+}
+#I8{
+    transform: rotateZ(70deg);
+}
+#I7{
+    transform: rotateZ(60deg);
+}
+#I6{
+    transform: rotateZ(50deg);
+}
+#I5{
+    transform: rotateZ(40deg);
+}
+#I4{
+    transform: rotateZ(30deg);
+}
+#I3{
+    transform: rotateZ(20deg);
+}
+#I2{
+    transform: rotateZ(10deg);
+}
+#fr1{
+    width: 500px;
+    margin: auto;
+    position: relative;
+
+}
+fieldset{
+    border: solid 4px black;
+    border-radius: 30px;
+    box-shadow: 5px 5px   10px purple;
+    padding: 20px;
+}
+legend{
+    font-weight: bold;
+    font-size: 18px;
+}
+#fr1 label{
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.z1{
+    margin-top: 15px;
+    width: 320px;
+    height: 25px;
+    border-radius:5px
+}
+#login{
+    width: 75px;
+    position: absolute;
+    top: 145px;
+    left: 20px;
+
+}
+#btn{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width: 150px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 20px;
+}

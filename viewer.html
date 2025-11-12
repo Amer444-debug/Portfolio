@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#art-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+</style>
+</head>
+
+<body>
+    <img id="art-img" src="">
+</body>
+<script>
+const params = new URLSearchParams(window.location.search);
+const imgSrc = params.get("img");
+document.getElementById("art-img").src = imgSrc;
+</script>
+</html>
